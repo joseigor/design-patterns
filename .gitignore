@@ -1,0 +1,6 @@
+# vim .swp file
+*.swp
+# build directory
+build
+# clangd chahe
+.cache
