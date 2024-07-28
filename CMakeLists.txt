@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.14)
 
 project(
     design_patterns
@@ -10,7 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "")
 
 # Specify the C++ standard
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 message(STATUS "----------INFO----------")
 message(STATUS "CMake version: ${CMAKE_VERSION}")
@@ -29,4 +29,7 @@ message(STATUS "C++ flags (Release): ${CMAKE_CXX_FLAGS_RELEASE}")
 message(STATUS "C++ standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "-----------------------")
 
+enable_testing()
+
 add_subdirectory(src)
+add_subdirectory(test)
