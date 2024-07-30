@@ -1,5 +1,5 @@
 #ifndef  SRC_OBJECTS_BEHAVIORAL_COR__
-#define SRC_OBJECTS_BEHAVIORAL_COR__
+#define  SRC_OBJECTS_BEHAVIORAL_COR__
 
 // Chain of Responsibility pattern
 
