@@ -1,2 +1,2 @@
 add_subdirectory(concurrency)
-add_subdirectory(objects)
+add_subdirectory(behavioral)
