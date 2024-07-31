@@ -1,0 +1,5 @@
+Checks: 'clang-diagnostic-*,clang-analyzer-*,concurrency-*,cppcoreguidelines-*,google-*,modernize-*,performance-*'
+WarningsAsErrors: true
+AnalyzeTemporaryDtors: false
+FormatStyle: file
+UseColor: true

@@ -1,10 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 set -eu
 
 . ./project_config.sh
 
-BUILDDIR=${BUILDDIR:-"./build"}
 BUILDTYPE=${BUILDTYPE:-"Debug"}
 
 fast_build=0
