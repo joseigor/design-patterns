@@ -1,0 +1,19 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && for f in *.md; do marp --html --allow-local-files -o dist/\"${f%.md}.html\" \"$f\"; done",
+    "watch": "chokidar '*.md' -c 'npm run build'",
+    "serve": "serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.2.0",
+    "chokidar-cli": "^3.0.0",
+    "serve": "^14.2.4"
+  }
+}
